@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+    <header>
+        <h1>Algoritmos y Estructuras de Datos</h1>
+        <p>Ejercicio #12</p>
+        <p class="hashtag">#ProgramaPUMA</p>
+        <a href="../index.html">Regresar</a>
+    </header>
+
+    <content>
+        <div class="task-sec">
+            <h2>Adivina el número aleatorio (1-10)</h2>
+            <h4>Ingrese el Numero para adivinar (solo enteros): </h4>
+            <input type="number" id="num" placeholder="Número" />
+            <p></p>
+            <h4>Numero a Adivinar: <span id="random_num">?</span></h4>
+            <p></p>
+            <button onclick="comparar()">COMPARAR</button>
+
+            <h3 class="task-result"><span id="prefijo"></span><span id="resultado"></span><span id="sufijo"></span></h3>
+        </div>
+    </content>
+
+    <script src="../js/ejercicio-12.js"></script>
+</body>
+</html>
