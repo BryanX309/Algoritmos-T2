@@ -3,7 +3,7 @@ function evaluar() {
   if(text != ''){
     let c = 0;
     for (let i = 0; i < text.length; i++) {
-      if(text.substring(i,i+1) === 'a'){
+      if(text.substring(i,i+1).toLocaleLowerCase() === 'a'){
         c++;
       }
     }

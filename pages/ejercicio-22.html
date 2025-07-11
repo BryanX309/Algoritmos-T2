@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+    <header>
+        <h1>Algoritmos y Estructuras de Datos</h1>
+        <p>Ejercicio #22</p>
+        <p class="hashtag">#ProgramaPUMA</p>
+        <a href="../index.html">Regresar</a>
+    </header>
+
+    <content>
+        <div class="task-sec">
+            <h2>Recorrer y operar con arrays</h2>
+            <h4>Dado el Array [1,2,3,4,5,6]<br>Cada botón ejecutara una función diferente</h4>
+            <p></p>
+            
+            <div class="row">
+                <div class="seccion">
+                    <h3>Mostrar elementos con While</h3>
+                    <button onclick="show_while()">EJECUTAR</button>
+                </div>
+
+                <div class="seccion">
+                    <h3>Mostrar elementos con for</h3>
+                    <button onclick="show_for()">EJECUTAR</button>
+                </div>
+
+                <div class="seccion">
+                    <h3>Mostrar elementos con forEach</h3>
+                    <button onclick="show_forEach()">EJECUTAR</button>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="seccion">
+                    <h3>Mostrar elementos dentro de un array sumándole uno a cada uno</h3>
+                    <button onclick="show_plus()">EJECUTAR</button>
+                </div>
+
+                <div class="seccion">
+                    <h3>Generar una copia con todos los elementos incrementados en 1</h3>
+                    <button onclick="copia_plus()">EJECUTAR</button>
+                </div>
+
+                <div class="seccion">
+                    <h3>Calcula Promedio <br></h3>
+                    <button onclick="promedio()">EJECUTAR</button>
+                </div>
+            </div>
+
+            <h3 class="task-result" id="resultado"></h3>
+        </div>
+    </content>
+
+    <script src="../js/ejercicio-22.js"></script>
+</body>
+</html>

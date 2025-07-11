@@ -233,6 +233,7 @@ content {
 }
 
 .row{
+    max-width: 100%;
     display:flex;
     justify-content: center;
     flex-direction: row;
@@ -251,6 +252,29 @@ content {
     text-align: center;
     border-bottom: 1px solid rgbA(var(--color-ref-2), 0.3);
 }
+
+.centrar {
+    display: flex;
+    justify-content: center;
+}
+
+.codigo {
+    width: 500px;
+  background-color: #1e1e1e; /* fondo oscuro tipo VSCode */
+  color: #d4d4d4;           /* texto claro */
+  padding: 20px;
+  border-radius: 10px;
+  font-family: 'Fira Code', 'Courier New', monospace;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  margin: 20px;
+  text-align: left;
+  line-height: 1.5;
+}
+
+.codigo span{
+    color: rgb(57, 140, 214);
+}
+
 
 @media (max-width: 550px) {
    .input-row{

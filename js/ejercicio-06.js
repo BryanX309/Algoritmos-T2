@@ -12,7 +12,7 @@ function evaluar() {
     resultado = resultado.substring(0,resultado.length-2);
     //console.log(resultado);
     
-    document.getElementById('prefijo').textContent = `Los multiplos de ${number} son:\n`;
+    document.getElementById('prefijo').textContent = `Los Divisores de ${number} son: `;
     document.getElementById('resultado').textContent = resultado;
   }else{
     alert('el numero ingresado no es entero');

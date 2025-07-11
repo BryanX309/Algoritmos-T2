@@ -8,7 +8,7 @@ if(Number.isInteger(number)){
     resultado = resultado + `${number} x ${i} = <span class="resultado">${number*i}</span><br>`
     i++;
   }
-    document.querySelector('.task-result').innerHTML = 'Tabla Generada<br><br>'+resultado;
+    document.querySelector('.task-result').innerHTML = 'TABLA GENERADA<br><br>' +resultado;
   }else{
     alert('el numero ingresado no es entero');
   }
